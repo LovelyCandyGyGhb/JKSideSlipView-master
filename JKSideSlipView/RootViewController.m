@@ -48,7 +48,7 @@
     menu.items = @[@{@"title":@"1",@"imagename":@"1"},@{@"title":@"2",@"imagename":@"2"},@{@"title":@"3",@"imagename":@"3"},@{@"title":@"4",@"imagename":@"4"}];
     [_sideSlipView setContentView:menu];   //将menu加到_sildeView里(前图后透明)
     [self.view addSubview:_sideSlipView];
-    
+    NSLog(@"111");
 }
 
 - (void)didReceiveMemoryWarning {
